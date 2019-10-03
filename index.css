@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+div {
+    background: #ff000040;
+    margin: 5px 0px;
+}
+span {
+    background: #0000ff40;
+}
+img {
+    position: relative;
+    margin: 5px 0px;
+    width: 100%;
+}
+li {
+    background: #00ffff40;
+}
+
