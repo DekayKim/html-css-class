@@ -1,0 +1,96 @@
+<html lang="en">
+    <head>
+        <title>HTML 제목</title>
+        <style>
+            .prob-question {
+                background: #d9d9d9;
+                padding: 10px;
+            }
+            .prob-wrap {
+                height: 200px;
+                margin-bottom: 50px;
+                border: 1px solid;
+            }
+            div.prob-sample {
+                background: #ff8383;
+            }
+        </style>
+        <!-- <link href="./index.css" rel="stylesheet"> -->
+    </head>
+    <body>
+
+        <!------------------- problem 1. ------------------->
+        <div class="prob-question">
+            1. 아래 '박스' 텍스트가 담긴 div를 너비(width) 200px, 높이(height) 100px의 크기로 만들어보세요.
+        </div>
+        <style>
+            #prob-1 {
+                position: relative;
+            }
+        </style>
+        <div class="prob-wrap">
+            <div id='prob-1' class='prob-sample'>박스</div>
+        </div>
+        <!-- -------------------------------------------- -->
+
+
+        <!------------------- problem 2. ------------------->
+        <div class="prob-question">
+            2. 아래 '박스' 텍스트가 담긴 div는 테두리가 그려진 div에 왼쪽과 위에 찰싹 붙어 있습니다.<br>
+            위(top)에서 10px, 왼쪽(left)에서 20px 떨어트려 보세요.
+        </div>
+        <style>
+            #prob-2 {
+                position: relative;
+                width: 500px;
+            }
+        </style>
+        <div class="prob-wrap">
+            <div id='prob-2' class='prob-sample'>박스</div>
+        </div>
+        <!-- -------------------------------------------- -->
+
+
+        <!------------------- problem 3. ------------------->
+        <div class="prob-question">
+            아래 '박스1', '박스2' 텍스트가 담긴 div들은 서로 너무 바짝 붙어 있네요.<br>
+            3.1. 두 박스의 간격을 20px로 맞춰 보세요.<br>
+            3.2. 두 박스와 테두리가 그려진 박스와도 10px씩 간격을 맞춰 보세요.
+        </div>
+        <style>
+            #prob-3 { height: unset; }
+            #prob-3-1 {
+                position: relative;
+                background: #8b8bff;
+                height: 100px;
+            }
+            #prob-3-2 {
+                position: relative;
+                height: 100px;
+            }
+        </style>
+        <div class="prob-wrap" id='prob-3'>
+            <div id='prob-3-1' class='prob-sample'>박스</div>
+            <div id='prob-3-2' class='prob-sample'>박스</div>
+        </div>
+        <!-- -------------------------------------------- -->
+
+        <!------------------- problem 4. ------------------->
+        <div class="prob-question">
+            아래 '박스' 텍스트가 담긴 div는 위 문제 1,2,3번 아래에 위치해 있습니다. 물론 컨텐츠 순서대로 배치되었기 때문이죠<br>
+            그 순서를 무시해 봅시다. 아래 노란색 박스를 화면 최상단에 붙여 보세요. position을 활용하면 될거에요.
+        </div>
+        <style>
+            #prob-4 {
+                position: relative;
+                height: 100px;
+                width: 100%;
+                background: yellow;
+            }
+        </style>
+        <div class="prob-wrap">
+            <div id='prob-4' class='prob-sample'>박스</div>
+        </div>
+        <!-- -------------------------------------------- -->
+    </body>
+</html>
