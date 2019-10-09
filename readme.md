@@ -11,6 +11,9 @@
 - [PPT 링크](https://docs.google.com/presentation/d/1Xrtd4kDgZ3i16TjTCBxmH2zVbM0rlpHAfsGICbFt2zs/edit?usp=sharing)
 - [html/css 코드 다운로드](https://1drv.ms/u/s!AlZKXhSgGqFgp3_IqUGsr1Q-_cwx?e=aAxhty)
 
+## 1.5회차 과제
+- [코드 다운로드](https://1drv.ms/u/s!AlZKXhSgGqFgqCdQ7T7yrksx7OTK?e=BMEsf1): 편의성을 위해 파일 하나에 css와 html을 다 넣어두었습니다.
+
 # 참고 자료
 ## 주요 HTML 태그
     - 루트 태그: html, head, body
