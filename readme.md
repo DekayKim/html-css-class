@@ -14,6 +14,11 @@
 ## 1.5회차 과제
 - [코드 다운로드](https://1drv.ms/u/s!AlZKXhSgGqFgqCdQ7T7yrksx7OTK?e=BMEsf1): 편의성을 위해 파일 하나에 css와 html을 다 넣어두었습니다.
 
+## 2회차 자료
+- [PPT 링크](https://docs.google.com/presentation/d/17-vF4m6Ig8to-ZdZexjDn46-v7FOGUE-_Ln_PjcQFnk/edit?usp=sharing)
+- [html/css 코드 다운로드](https://1drv.ms/u/s!AlZKXhSgGqFgqTwICPtLMtqakqRe?e=Spr7JU)
+- [참고 자료](http://www.nextree.co.kr/p8468/)
+
 # 참고 자료
 ## 주요 HTML 태그
     - 루트 태그: html, head, body
