@@ -1,0 +1,90 @@
+<html lang="en">
+    <head>
+        <title>HTML 제목</title>
+        <style> /* ... */ </style>
+        <link href="./index.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- 문서 컨텐츠 -->
+
+        <!-- inline-block -->
+        <style>
+            div {
+                margin: 0;
+            }
+            #test {
+                /* display: none; */
+            }
+            .inner-box {
+                width: 100px;
+                height: 100px;
+                display: inline-block;
+            }
+        </style>
+        <div id="test" style='height: 100px;'>
+            <div class='inner-box'>inner div1</div>
+            <div class='inner-box'>inner div2
+            </div>
+        </div>
+
+        <!-- 모달 - 뷰, 포지셔닝 -->
+        <style>
+            #modal, #modal-cover {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                margin: 0;
+            }
+            #modal {
+                z-index: 999;
+                /* display: none; */
+            }
+            #modal-cover {
+                background: black;
+                opacity: 0.5;
+            }
+            #modal-content {
+                position: relative;
+                width: 300px;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                padding: 10px;
+                font-size: 20px;
+                border: 1px solid;
+            }
+            #modal-content > * {
+                margin: 10px 0px;
+            }
+            #modal-content > *:nth-child(1) {
+                text-align: center;
+            }
+            #modal-content > input, #modal-button-wrap {
+                width: 100%;
+                height: 30px;
+            }
+            #modal-content .modal-button {
+                width: 80px;
+                height: 30px;
+                float: right;
+                margin-left: 10px;
+            }
+        </style>
+        <div id='modal'>
+            <div id='modal-cover'></div>
+            <div id='modal-content'>
+                <div>
+                    모달 <span>창</span>입니다.
+                </div>
+                <input type='text'/>
+                <div id='modal-button-wrap'>
+                    <input class='modal-button' type='button' value='취소'/>
+                    <input class='modal-button' type='button' value='확인'/>
+                </div>
+                
+            </div>
+        </div>
+
+    </body>
+</html>
