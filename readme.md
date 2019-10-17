@@ -7,17 +7,22 @@
 - vscode 확장 프로그램 live-server 설치: [설치 방법](https://recoveryman.tistory.com/383)
 
 # 회차별 자료
-## 1회차 자료
+## 1, 2회차 자료
 - [PPT 링크](https://docs.google.com/presentation/d/1Xrtd4kDgZ3i16TjTCBxmH2zVbM0rlpHAfsGICbFt2zs/edit?usp=sharing)
 - [html/css 코드 다운로드](https://1drv.ms/u/s!AlZKXhSgGqFgp3_IqUGsr1Q-_cwx?e=aAxhty)
 
-## 1.5회차 과제
+## 1, 2회차 과제
 - [코드 다운로드](https://1drv.ms/u/s!AlZKXhSgGqFgqCdQ7T7yrksx7OTK?e=BMEsf1): 편의성을 위해 파일 하나에 css와 html을 다 넣어두었습니다.
 
-## 2회차 자료
+## 3회차 자료
 - [PPT 링크](https://docs.google.com/presentation/d/17-vF4m6Ig8to-ZdZexjDn46-v7FOGUE-_Ln_PjcQFnk/edit?usp=sharing)
-- [html/css 코드 다운로드](https://1drv.ms/u/s!AlZKXhSgGqFgqTwICPtLMtqakqRe?e=Spr7JU)
+- [html/css 코드 다운로드](https://1drv.ms/u/s!AlZKXhSgGqFgqV0BNBD0z7U6egOa?e=yRZWJF) : 수정 전 샘플과 수업 진행 후 수정 완료된 샘플을 모두 넣어두었습니다.
 - [참고 자료](http://www.nextree.co.kr/p8468/)
+
+## 3회차 과제
+- [코드 다운로드](https://1drv.ms/u/s!AlZKXhSgGqFgqV_x3w0ZyU3oMbiB?e=07mwzG)
+- day3_homework.html에 선택자 적용해서 정리하기
+- 각자 태그 색상 마음에 드는 색으로 변경하기
 
 # 참고 자료
 ## 주요 HTML 태그

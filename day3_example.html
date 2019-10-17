@@ -1,0 +1,59 @@
+<style>
+    /* 전체 선택자 */
+    * {
+        position: relative;
+    }
+
+    /* ID 선택자 */
+    #prob-3 { height: unset; }
+
+    /* 클래스 선택자 */
+    .prob-sample {
+        height: 50px;
+    }
+
+    /* 자손 선택자 + 전체 선택자 */
+    #prob-3 * {
+        height: 100px;
+    }
+
+    /* 자식 선택자 + 태그 선택자(span) */
+    #prob-3 > span {
+        background: yellow;
+    }
+
+    /* 자식 선택자 + 태그 선택자(div) + 순서 선택자(첫 번째 자식) */
+    #prob-3 > div:nth-child(1) {
+        background: #8b8bff;
+    }
+
+    /* 자식 선택자 + 태그 선택자(div) */
+    #prob-3 > div#prob-3-2 {
+        background: #FF0000;
+    }
+
+    /* 자손 선택자 + 태그 선택자(input) + 속성 선택자(type=text) */
+    #prob-3 input[type=text] {
+        height: unset;
+    }
+</style>
+<div id='prob-3'>
+    <div id='prob-3-1' class='prob-sample'>박스1</div>
+    <div id='prob-3-2' class='prob-sample'>
+        박스2
+        <div>박스 내 박스</div>
+    </div>
+    <span>123123</span>
+    <input type='text'/>
+</div>
+
+
+
+<!------------------- 맨 처음 상태 ------------------->
+<style>
+</style>
+<div id='prob-3'>
+    <div style='position: absolute; height: 100px; width: 100px; background: #8b8bff;'>박스1</div>
+    <div style='position: absolute; height: 100px; width: 100px; top: 20px; left: 20px;'>박스2</div>
+</div>
+<!-- -------------------------------------------- -->
